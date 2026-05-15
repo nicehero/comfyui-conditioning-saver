@@ -9,6 +9,6 @@ dependencies = ["torch"]
 Repository = "https://github.com/nicehero/comfyui-conditioning-saver"
 
 [tool.comfy]
-PublisherId = "nicehero"
+PublisherId = "comfyui-conditioning-saver"
 DisplayName = "comfyui-conditioning-saver"
 nodes = ["SaveConditioning", "LoadConditioning"]
