@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-conditioning-saver"
+description = "Save and load CONDITIONING tensors to/from files, enabling reuse of encoded prompts and caching expensive CLIP encodings across workflows."
+version = "1.0.0"
+license = "MIT"
+dependencies = ["torch"]
+
+[project.urls]
+Repository = "https://github.com/nicehero/comfyui-conditioning-saver"
+
+[tool.comfy]
+display_name = "ComfyUI Conditioning Saver"
+nodes = ["SaveConditioning", "LoadConditioning"]
