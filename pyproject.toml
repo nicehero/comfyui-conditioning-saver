@@ -10,5 +10,5 @@ Repository = "https://github.com/nicehero/comfyui-conditioning-saver"
 
 [tool.comfy]
 PublisherId = "nicehero"
-DisplayName = "nicehero"
+DisplayName = "comfyui-conditioning-saver"
 nodes = ["SaveConditioning", "LoadConditioning"]
